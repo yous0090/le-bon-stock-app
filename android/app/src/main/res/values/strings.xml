@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">le-bon-stock</string>
+    <string name="title_activity_main">le-bon-stock</string>
+    <string name="package_name">com.yourname.lebonstock</string>
+    <string name="custom_url_scheme">com.yourname.lebonstock</string>
+</resources>

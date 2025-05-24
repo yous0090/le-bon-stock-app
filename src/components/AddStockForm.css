@@ -1,0 +1,66 @@
+.add-stock-form {
+  max-width: 520px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.add-stock-form h2 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #3f51b5;
+}
+
+.add-stock-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.add-stock-form input,
+.add-stock-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-stock-form input:focus,
+.add-stock-form select:focus {
+  border-color: #3f51b5;
+  outline: none;
+}
+
+.add-stock-form fieldset {
+  border: none;
+  margin-bottom: 15px;
+}
+
+.add-stock-form legend {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.add-stock-form button {
+  background-color: #4caf50;
+  color: white;
+  font-weight: 700;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.25s ease;
+}
+
+.add-stock-form button:hover {
+  background-color: #388e3c;
+}
+

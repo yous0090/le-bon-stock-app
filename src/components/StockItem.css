@@ -1,0 +1,77 @@
+.stock-item {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.stock-item.low-stock {
+  background-color: #ffebee;
+  border-left-color: #f44336 !important;
+}
+
+.stock-info {
+  flex-grow: 1;
+}
+
+.stock-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.stock-details {
+  font-size: 0.9rem;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  color: #555;
+  align-items: center;
+}
+
+.category {
+  font-weight: 700;
+}
+
+.supplier a {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+.supplier a:hover {
+  text-decoration: underline;
+}
+
+.low-alert {
+  color: #d32f2f;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.stock-controls button {
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  background-color: #3f51b5;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.stock-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.stock-controls button:hover:not(:disabled) {
+  background-color: #303f9f;
+}
